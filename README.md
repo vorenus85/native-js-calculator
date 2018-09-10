@@ -21,3 +21,5 @@ User Story #3: My calculator should contain 4 clickable elements each containing
 * User Story #15: My calculator should have several decimal places of precision when it comes to rounding (note that there is no exact standard, but you should be able to handle calculations like 2 / 7 with reasonable precision to at least 4 decimal places).
 
 * You can build your project by forking this CodePen pen. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
+
+<b> This work belongs to Janos Perge: https://codepen.io/vorenus85/pen/qMpBpX </b>

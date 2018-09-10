@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Native Javascript Calculator</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -11,7 +11,8 @@
 </head>
 <body>
 <div class="row">
-    <div class="container">
+    <div class="container pt-5 pb-5">
+        <h2 class="text-center">Native Javascript Calculator</h2>
         <div id="calculator" class="calculator mt-5 mb-5">
             <div id="displayHistory" class="display history text-right"></div>
             <div id="display" class="display text-right">0</div>
@@ -35,7 +36,9 @@
                 <button id="clear" class="btn btn-danger clear clearBtn">AC</button>
             </div>
         </div>
+        <p class="text-center pt-5 pb-5"><b>&copy; Janos Perge 2018</b></p>
     </div>
+
 </div>
 <script>
     var myCalculator = new Calculator();
