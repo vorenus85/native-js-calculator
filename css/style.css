@@ -1,0 +1,49 @@
+.calculator {
+    width: 400px;
+    margin: 0 auto;
+    border: 5px solid var(--dark);
+    font-family: 'Orbitron', sans-serif;
+}
+
+.display {
+    background: var(--dark);
+    color: var(--white);
+    font-weight: normal;
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+}
+
+.history {
+    font-size: 1rem;
+    line-height: 1em;
+    height: 32px;
+}
+
+.calculator-buttons {
+    display: grid;
+    grid-template-areas: 'operator operator operator operator' 'number number number equal' 'number number number equal' 'number number number equal' 'zero decimal clear equal';
+    grid-gap: 5px;
+    background-color: lightgray;
+    padding: 5px;
+}
+
+.calculator-buttons .btn {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.equal {
+    grid-area: equal;
+}
+
+.zero {
+    grid-area: zero;
+}
+
+.decimal {
+    grid-area: decimal;
+}
+
+.clear {
+    grid-area: clear;
+}

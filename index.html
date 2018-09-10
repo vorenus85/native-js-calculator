@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/app.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="row">
+    <div class="container">
+        <div id="calculator" class="calculator mt-5 mb-5">
+            <div id="displayHistory" class="display history text-right"></div>
+            <div id="display" class="display text-right">0</div>
+            <div id="calculator-buttons" class="calculator-buttons">
+                <button id="add" class="btn operator operatorBtn">+</button>
+                <button id="subtract" class="btn operator operatorBtn">-</button>
+                <button id="multiply" class="btn operator operatorBtn">*</button>
+                <button id="divide" class="btn operator operatorBtn">/</button>
+                <button id="seven" class="btn number numberBtn">7</button>
+                <button id="eight" class="btn number numberBtn">8</button>
+                <button id="nine" class="btn number numberBtn">9</button>
+                <button id="four" class="btn number numberBtn">4</button>
+                <button id="five" class="btn number numberBtn">5</button>
+                <button id="six" class="btn number numberBtn">6</button>
+                <button id="one" class="btn number numberBtn">1</button>
+                <button id="two" class="btn number numberBtn">2</button>
+                <button id="three" class="btn number numberBtn">3</button>
+                <button id="equals" class="btn btn-success equal equalBtn">=</button>
+                <button id="zero" class="btn zero numberBtn">0</button>
+                <button id="decimal" class="btn decimal numberBtn">.</button>
+                <button id="clear" class="btn btn-danger clear clearBtn">AC</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var myCalculator = new Calculator();
+    myCalculator.init();
+</script>
+</body>
+</html>
